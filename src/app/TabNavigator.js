@@ -9,7 +9,6 @@ const TabNavigator = () => {
     <Tab.Navigator initialRouteName="Picture">
       <Tab.Screen name="Home" component={StackNavigator} />
       <Tab.Screen name="Picture" component={PicturePage} />
-      <Tab.Screen name="Tab3" component={() => <></>} />
     </Tab.Navigator>
   );
 };
